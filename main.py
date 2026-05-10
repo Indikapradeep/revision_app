@@ -18,13 +18,13 @@ class WelcomeScreen(MDScreen):
         )
         
         welcome_text = MDLabel(
-            text="Prepare for your exams with ease.",
+            text="Exam Revision Hub",
             halign="center",
             theme_text_color="Secondary"
         )
 
         login_btn = MDRaisedButton(
-            text="LOGIN TO START",
+            text="START A FREE TEST",
             pos_hint={"center_x": .5},
             on_release=self.go_to_login
         )

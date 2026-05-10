@@ -1,0 +1,7 @@
+my_revision1_env/
+venv/
+.buildozer/
+bin/
+__pycache__/
+*.pyc
+*.apk
