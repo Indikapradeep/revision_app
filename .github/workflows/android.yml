@@ -16,11 +16,19 @@ jobs:
       - name: Build APK
         uses: digreatbrian/buildozer-action@v2
         with:
-          workdir: .
-          buildozer_version: stable
+          python-version: 3.10
+          work-dir: .
+          buildozer-cmd: buidozer android debug
 
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
-        with:
-          name: revision-app-apk
-          path: bin/*.apk
+
+
+
+
+
+
+
+
+
+
+
+     
